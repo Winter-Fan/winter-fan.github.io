@@ -3,10 +3,6 @@ function playVideo() {
     video.play();
 }
 
-document.addEventListener("contextmenu", function(e) {
-    e.preventDefault();
- });
-
 const button = document.querySelector('button');
 
 button.addEventListener('click', () => {
