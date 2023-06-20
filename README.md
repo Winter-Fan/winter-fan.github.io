@@ -1,2 +1,2 @@
 # winterfan.github.io
-It's just a meme page based on https://matias.ma/nsfw/ one for my browser bootup
+It's just a meme page based on https://matias.ma/nsfw/ one's for my browser bootup
