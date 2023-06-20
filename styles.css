@@ -1,0 +1,50 @@
+body {
+  background-color: black;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; 
+}
+
+button {
+  background-color: white;
+  color: black;
+  font-size: 30px;
+  font-weight: bold;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 15px;
+  z-index: 9999; /* Agrega un índice Z alto para que esté por delante de otros elementos */
+  font-family: Comic Sans MS;
+  /* Nuevos estilos para centrar el botón */
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+button.clicked {
+  display: none; /* Hace que el botón desaparezca cuando tiene la clase 'clicked' */
+}
+
+
+.videoWrapper {
+  margin-top: 20px;
+  width: 640px;
+  height: 360px;
+}
+
+video {
+  transform: translate(-50%, -50%);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  z-index: -1; /* Mueve el video detrás de otros elementos */
+}
+
+
