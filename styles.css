@@ -9,7 +9,7 @@ body {
   justify-content: center;
   height: 100vh; 
 }
-
+/*
 button {
   background-color: white;
   color: black;
@@ -19,15 +19,14 @@ button {
   border: none;
   cursor: pointer;
   border-radius: 15px;
-  z-index: 9999; /* Agrega un índice Z alto para que esté por delante de otros elementos */
+  z-index: 9999; 
   font-family: Comic Sans MS;
-  /* Nuevos estilos para centrar el botón */
   position: absolute;
   top: 40%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
-
+*/
 button.clicked {
   display: none; /* Hace que el botón desaparezca cuando tiene la clase 'clicked' */
 }
