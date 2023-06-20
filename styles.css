@@ -1,7 +1,7 @@
 body {
   background-color: black;
 }
-/*&
+
 .container {
   display: flex;
   flex-direction: column;
@@ -28,7 +28,7 @@ button {
 }
 
 button.clicked {
-  display: none; /* Hace que el botón desaparezca cuando tiene la clase 'clicked' */
+  display: none;
 }
 
 
@@ -43,7 +43,7 @@ video {
   position: absolute;
   top: 50%;
   left: 50%;
-  z-index: -1; /* Mueve el video detrás de otros elementos */
+  z-index: -1;
 }
 
 
