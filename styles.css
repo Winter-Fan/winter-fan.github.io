@@ -37,7 +37,7 @@ button.clicked {
   width: 640px;
   height: 360px;
 }
-
+/*
 video {
   transform: translate(-50%, -50%);
   position: absolute;
@@ -45,5 +45,5 @@ video {
   left: 50%;
   z-index: -1;
 }
-
+*/
 
